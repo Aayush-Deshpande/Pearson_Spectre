@@ -45,7 +45,7 @@ export default function Home() {
     <main className="font-sans bg-gray-950 text-white">
       {/* Navbar */}
       <nav className="fixed top-0 w-full z-50 flex justify-between items-center px-10 py-4 bg-gray-900/70 backdrop-blur-lg shadow-lg border-b border-gray-800">
-        <h1 className="text-2xl font-semibold tracking-tight">Pearson Specter Litt</h1>
+        <h1 className="text-2xl font-semibold tracking-tight">Pearson Specter</h1>
         <div className="flex items-center gap-6 text-sm md:text-base">
           {['About', 'Practice', 'Attorneys', 'Cases', 'Contact'].map((item) => (
             <a key={item} href={`#${item.toLowerCase()}`} className="relative group">
@@ -74,7 +74,7 @@ export default function Home() {
           transition={{ duration: 1 }}
           className="text-6xl md:text-8xl font-extrabold mb-6 tracking-tight"
         >
-          Pearson Specter Litt
+          Pearson Specter
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 10 }}
@@ -111,7 +111,7 @@ export default function Home() {
           About Us
         </motion.h2>
         <p className="text-lg leading-relaxed text-gray-300 text-center max-w-3xl mx-auto">
-          Pearson Specter Litt redefines legal excellence through innovation, intelligence, and influence.
+          Pearson Specter redefines legal excellence through innovation, intelligence, and influence.
           Founded by Jessica Pearson and Harvey Specter, we combine world-class litigation prowess with
           cutting-edge strategy to deliver transformative outcomes for our clients.
         </p>
@@ -186,7 +186,7 @@ export default function Home() {
                 <label className="flex items-center gap-2">
                   <input type="checkbox" required />{" "}
                   <span className="text-sm text-gray-400">
-                    I consent to be contacted by Pearson Specter Litt or its AI assistant immediately.
+                    I consent to be contacted by Pearson Specter or its AI assistant immediately.
                   </span>
                 </label>
                 <motion.button type="submit" whileHover={{ scale: 1.03 }} className="px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition">
@@ -207,7 +207,7 @@ export default function Home() {
 
       <footer className="py-10 text-center border-t border-gray-800">
         <p className="text-sm text-gray-500">
-          © {new Date().getFullYear()} Pearson Specter Litt. Designed for excellence.
+          © {new Date().getFullYear()} Pearson Specter. Designed for excellence.
         </p>
       </footer>
     </main>
