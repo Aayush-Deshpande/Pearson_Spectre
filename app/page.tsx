@@ -25,7 +25,7 @@ export default function Home() {
     };
 
     try {
-      const res = await fetch('https://hook.eu2.make.com/9xid75009h62zuh7gqgllym40wq1uzhr', {
+      const res = await fetch('https://aayushdeshpandeunoffical.app.n8n.cloud/webhook-test/64900884-4cbb-4983-b31e-5194bb8a9bdf', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data),
